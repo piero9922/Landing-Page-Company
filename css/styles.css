@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.header{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header .logo{
+    width:  60px;
+    height: 60px;
+    margin: 40px 0 60px 0;
+}
+
+.header h3{
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+
+.header h2{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0;
+    color: white;
+}
+.buttons{
+    margin: 80px;
+}
+
+.buttons a{
+    padding: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    background: #ff512f;
+    text-decoration: none;
+    color: white;
+}
+
+.description-job{
+    background: #ff512f;
+    padding: 100px;
+}
+
+.description-job h2{
+    margin: 20px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.description-job p{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
