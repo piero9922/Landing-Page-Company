@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;    
     margin: 0;
+    padding: 0;
 }
 .header{
-    background: gray;
+    background-image: url(https://images.assets-landingi.com/HRa0o1z4/kaboompics_Modern_office_Interior_with_old_vintage_brick_Wall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,3 +67,69 @@ body{
     width: 600px;
     margin: 0 auto;
 }
+
+
+.skills h4{
+    text-align: center;
+    font-size: 30px;
+    margin: 70px 0 0 0;
+    color: #5b5d66;
+}
+
+.skills h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #5b5d66;
+}
+
+.container-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px; */
+}
+
+.required-skills{
+    /* display: flex; */
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+    width: 280px;
+    height: 170px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.text-skills{
+    padding: 20px;
+}
+
+.text-skills h3{
+    font-weight: lighter;
+}
+
+.text-skills p{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.marker{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
